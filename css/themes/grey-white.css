@@ -1,8 +1,34 @@
 /* Theme */
 
 main {
-	background: #485564;
-	color: #FAFAFA;
+	background: linear-gradient(66deg, #21b48e, #b421a8, #b421a8);
+background-size: 600% 600%;
+
+-webkit-animation: chriskwiz 59s ease infinite;
+-moz-animation: chriskwiz 59s ease infinite;
+-o-animation: chriskwiz 59s ease infinite;
+animation: chriskwiz 59s ease infinite;
+
+@-webkit-keyframes chriskwiz {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@-moz-keyframes chriskwiz {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@-o-keyframes chriskwiz {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@keyframes chriskwiz { 
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
 }
 
 .icons-social a {
